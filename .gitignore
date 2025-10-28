@@ -1,0 +1,45 @@
+# Vivado project artefacts
+*.jou
+*.log
+*.str
+*.dcp
+*.pb
+*.rpx
+*.csv.tmp
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.data/
+.Xil/
+xsim.dir/
+
+# Generated Vivado reports and logs
+reports/
+logs/
+*.html
+
+# Simulator waveforms
+*.wdb
+*.wcfg
+*.tcl.tmp
+
+# Intermediate build outputs
+*.xsa
+*.xo
+*.zip
+*.tar.gz
+
+# Python caches and virtualenvs
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.venv/
+env/
+venv/
+
+# Office temp files
+~$*
