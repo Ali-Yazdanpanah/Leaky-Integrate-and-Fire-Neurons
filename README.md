@@ -6,8 +6,11 @@ Hardware implementation of a compact spiking neural network featuring fixed-poin
 - `rtl/` – RTL sources (`lif_neuron.v`, `snn_layer.sv`, `snn_simple.sv`, Poisson stimulus generators, and the fixed-point package).
 - `tb/` – Test benches covering the single neuron, two-neuron demo, fan-in experiments, and an accuracy harness.
 - `scripts/` – Vivado batch scripts, plotting utilities, and captured traces/figures.
+- `scripts/mem.tex`, `scripts/mem_fa.tex` – English and Persian LaTeX reports that document the design.
+- `scripts/lif_rc_circuit.png`, `scripts/lif_neuron_trace.png`, `scripts/snn_simple.png`, `scripts/snn_suit.png` – Figure assets consumed by the LaTeX reports.
 - `Makefile` – Entry points for simulation, out-of-context synthesis, and figure regeneration.
 - `reports/`, `logs/` – Output directories created by Vivado (ignored by Git).
+- `.gitignore` – Filters Vivado artefacts, simulator scratch data, and Python caches from version control.
 
 ## Requirements
 - Xilinx Vivado 2017.1 (64-bit) or newer with XSIM available on `PATH`.
